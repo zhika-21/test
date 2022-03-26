@@ -5,7 +5,7 @@ const Card = ({result}) => {
     let display;
     if (result) { }
     else {
-        display = 'No charachters Found :/'
+        display = 'No charachters Found'
     }
     if (result) {
         display = result.map((el) => {

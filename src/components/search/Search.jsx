@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import styles from './Search.scss';
 
 const Search = ({ fethchedData, setSearch, updatePageNumber}) => {
